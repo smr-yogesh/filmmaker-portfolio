@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Director Name – Film director and cinematographer</title>
+<meta name="description" content="Portfolio of an independent film director and cinematographer working across narrative, documentary, music video and commercial projects.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Director Name – Film director and cinematographer">
+<meta property="og:description" content="Selected work in narrative, documentary, music video and commercial film.">
+<meta property="og:image" content="media/sample-images/s01.jpg">
+<meta name="theme-color" content="#101010">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Director Name","jobTitle":"Film director and cinematographer"}</script>
+<script>document.documentElement.classList.add('js')</script>
+<script type="module" src="js/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#work">Skip to work</a>
+<header class="bar">
+  <a class="brand" href="#top" data-site="name">Director Name</a>
+  <nav aria-label="Main"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+<main id="top">
+  <section class="hero">
+    <h1><span data-site="name">Director Name</span><em data-site="role">Film director and cinematographer</em></h1>
+    <figure class="still">
+      <img src="media/sample-images/s01.jpg" width="1920" height="804" alt="Placeholder frame: a lone figure on a dusk horizon under a low orange sky" fetchpriority="high">
+      <figcaption>Placeholder frame. Replace with a still from your own film.</figcaption>
+    </figure>
+  </section>
+
+  <section id="work" class="work" aria-labelledby="work-h">
+    <div class="sec-head"><h2 id="work-h">Selected work</h2><div class="filters" id="filters" role="group" aria-label="Filter by category"></div></div>
+    <p class="state" id="state" role="status">Loading work…</p>
+    <ol class="grid" id="grid"></ol>
+  </section>
+
+  <section id="about" class="about" aria-labelledby="about-h">
+    <h2 id="about-h">About</h2>
+    <div class="about-body">
+      <p class="lede" data-site="bio"></p>
+      <p class="muted">This is placeholder copy. Replace it in <code>data/site.json</code> with your own biography.</p>
+    </div>
+    <img class="portrait" src="media/sample-images/portrait.jpg" width="800" height="1000" alt="Placeholder portrait" loading="lazy">
+  </section>
+
+  <section id="contact" class="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h" class="sr">Contact</h2>
+    <a class="mail" id="mail" href="#"></a>
+    <ul class="links" id="links"></ul>
+  </section>
+</main>
+<footer class="foot"><span data-site="name">Director Name</span><span id="year"></span></footer>
+
+<dialog id="viewer" aria-labelledby="v-title">
+  <div class="v-bar"><button class="v-prev" aria-label="Previous project">Prev</button><button class="v-next" aria-label="Next project">Next</button><button class="v-close" aria-label="Close">Close</button></div>
+  <div class="v-media"></div>
+  <div class="v-info"><h3 id="v-title"></h3><p class="v-meta"></p><p class="v-text"></p><a class="v-link" target="_blank" rel="noopener">View original post</a></div>
+</dialog>
+</body>
+</html>
